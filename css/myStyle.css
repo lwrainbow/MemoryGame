@@ -1,0 +1,131 @@
+@charset "UTF-8";
+/* CSS Document */
+body {
+	background-image: url(../image/background.jpg);
+	background-size: cover;
+	-webkit-background-size: cover;	
+	margin: auto 4%;
+}
+
+h1 {
+	font-size: 80px;
+	font-family: matura mt script capitals;
+	color: #2e2b3e;
+	padding-left: 42%;
+	position: relative;
+}
+
+div {
+	position: relative;
+	top: -160px;
+	padding-left: 28%;
+}
+
+div input {
+	width: 60px;
+	height: 40px;
+	color: #2e2b3e;
+	font-size: 14px;
+	border: dashed #2e2b3e;
+	background-color: transparent;
+}
+
+#timer {
+	color: #5d635f;
+	position: relative;
+	top: -238px;
+	padding-left: 14%;
+}
+
+th {
+	font-size: 32px;
+}
+
+#minute, #second {
+	text-align: right;
+}
+
+#win {
+	position: relative;
+	padding-left: 12%;
+	font-size: 60px;
+    color: #98525c;
+	visibility: hidden;
+}
+
+#cardTable {
+	position:absolute;
+	top: 180px;
+	padding-left: 34%;
+}
+
+img {
+	width: 60px;
+	height: 60px;
+}
+
+@media only screen and (min-width: 1242px)and (max-width:1336px){
+	h1 {
+		font-size: 60px;
+	}
+	
+	div{
+		top: -120px;
+		padding-left: 50px;
+	}
+	
+	div input {
+		width: 68px;
+		height: 40px;
+		font-size: 14px;
+	}
+	
+	#timer {
+		color: #5d635f;
+		position: relative;
+		top: -200px;
+		padding-left: 220px;
+	}
+	
+    #win {
+        padding-top: 540px;
+        font-size: 20px;
+    }
+    
+    #cardTable {
+        padding-left: 50px;
+    }
+}
+
+@media only screen and (max-width:1242px){
+	h1 {
+		font-size: 60px;
+	}
+	
+	div{
+		top: -120px;
+		padding-left: 50px;
+	}
+	
+	div input {
+		width: 68px;
+		height: 40px;
+		font-size: 14px;
+	}
+	
+	#timer {
+		color: #5d635f;
+		position: relative;
+		top: -200px;
+		padding-left: 220px;
+	}
+	
+    #win {
+        padding-top: 540px;
+        font-size: 20px;
+    }
+    
+    #cardTable {
+        padding-left: 50px;
+    }
+}

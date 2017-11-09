@@ -1,0 +1,32 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Memory Trainer</title>
+<link rel="stylesheet" href="css/myStyle.css">
+</head>
+
+<body>
+<h1>Memory Game</h1>
+	<div>
+		<input type="button" value="4×4" onclick="initializeCard(4);">
+		<input type="button" value="6×6" onclick="initializeCard(6)"><br><br>
+		<input type="button" value="8×8" onclick="initializeCard(8)">
+		<input type="button" value="10×10" onclick="initializeCard(10)">		
+	</div>
+	<table id="timer">
+		<tr>
+			<th colspan="4">Timer</th>
+		</tr>
+		<tr>
+			<td id="minute">0</td>
+			<td>m</td>
+			<td id="second">0</td>
+			<td>s</td>
+		</tr>
+	</table>
+	<p id="win">Win!</p>
+	<table id = "cardTable"></table>
+	<script src="js/memory.js"></script>
+</body>
+</html>
