@@ -1,6 +1,6 @@
 # MemoryGame
 <p>Create a memory game in JavaScript.</p>
-<p><a href="http://lianxiao.dev.fast.sheridanc.on.ca/portfolio/MemoryGame/index.html">Play here</a></p>
+<p><a href="http://lianxiao.dev.fast.sheridanc.on.ca/xiaoyu/MemoryGame/index.html">Play here</a></p>
 There has:
 <ul>
   <li>A css file which contains all of my style code</li>
